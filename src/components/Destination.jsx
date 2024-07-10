@@ -83,7 +83,7 @@ const Section = styled.section`
         position: absolute;
         bottom: 20%;
         left: -6.5%;
-        height: 100%;
+        height: 80%;
         width: 100%;
         background: linear-gradient(to bottom, #ffffff14, #000000ae);
         display: flex;
