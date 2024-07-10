@@ -51,11 +51,12 @@ export default function Services() {
 }
 
 const Section = styled.section`
-  margin: 8rem 4rem;
+  padding: 8rem 4rem;
   .services {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    border-radius: 5px;
     .service {
       padding: 1.5rem 2rem;
       text-align: center;
@@ -64,6 +65,8 @@ const Section = styled.section`
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      box-shadow: rgba(100, 100, 111, 0.2) 2px 7px 29px 5px;
+
       gap: 1rem;
       h3 {
         color: var(--primary-text);
