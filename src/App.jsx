@@ -1,4 +1,5 @@
 import Destination from "./components/Destination";
+import DownloadApp from "./components/DownloadApp";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Offer from "./components/Offer";
@@ -13,9 +14,10 @@ export default function App() {
       <Home />
       <Services />
       <Destination />
-      <Offer/>
-      <Tour/>
-      <Testimonial/>
+      <Offer />
+      <Tour />
+      <Testimonial />
+      <DownloadApp />
     </div>
   );
 }

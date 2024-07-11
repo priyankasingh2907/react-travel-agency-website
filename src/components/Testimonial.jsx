@@ -21,6 +21,7 @@ export default function Testimonial() {
             <div className="info">
               <h3>Priyank Singh</h3>
               <span>Full Stack Devloper</span>
+              <hr />
             </div>
           </div>
           <p className="description">
@@ -51,6 +52,7 @@ const Section = styled.section`
     display: flex;
     gap: 3rem;
     .testimonial {
+      border-radius: 4px;
       margin-top: 4rem;
       padding: 4rem 3rem;
       height: max-content;
