@@ -25,10 +25,10 @@ export default function Testimonial() {
             </div>
           </div>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            expedita atque commodi velit unde pariatur possimus quos error
-            labore soluta incidunt est iste, minus totam? Sunt ipsam delectus
-            cum impedit.
+          Jetrips Hotel is an excellent choice for anybody for considering
+            hosting their events there. Top level facilities and excellent staff
+            make for a briallant environment within which to operate. The hotel
+            is meticulous in its planning.
           </p>
         </div>
         <div className="testimonial-image-two">
@@ -81,6 +81,27 @@ const Section = styled.section`
       .description {
         font-size: 1.1rem;
         line-height: 1.5rem;
+      }
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin-top: 5rem;
+    .title {
+      display: flex;
+      justify-content: center;
+      h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        width: 80%;
+      }
+    }
+    .testimonials {
+      flex-direction: column;
+      overflow: hidden;
+      .testimonial-image-one,
+      .testimonial-image-two {
+        max-inline-size: 100%;
+        block-size: auto;
       }
     }
   }

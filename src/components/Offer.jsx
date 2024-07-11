@@ -78,4 +78,34 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    flex-direction: column;
+    margin: 5rem 1rem;
+    gap: 2rem;
+    .image {
+      img {
+        max-inline-size: 100%;
+        block-size: auto;
+      }
+    }
+    .content {
+      .title {
+        h1 {
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+      .list {
+        li {
+          gap: 1rem;
+          margin: 2rem 0;
+          .text {
+            h3 {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
 `;

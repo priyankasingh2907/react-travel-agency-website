@@ -59,4 +59,20 @@ const Section = styled.section`
     right: 1rem;
     border-radius: 5px;
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    flex-direction: column;
+    height: max-content;
+    gap: 4rem;
+    padding: 2rem;
+    .info {
+      h1 {
+        font-size: 2rem;
+        width: 100%;
+      }
+    }
+    .screens {
+      position: initial;
+      height: 15rem;
+    }
+  }
 `;

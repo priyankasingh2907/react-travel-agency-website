@@ -133,9 +133,10 @@ const Section = styled.section`
     }
   }
   @media screen and (min-width: 280px) and (max-width: 1088px) {
-    margin: 2rem;
+    margin: 0 1rem;
     .upperFooter {
-      grid-template-columns: 1fr;
+      display: flex;
+      flex-direction: column;
     }
   }
 `;

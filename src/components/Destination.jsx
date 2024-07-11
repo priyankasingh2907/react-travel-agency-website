@@ -94,4 +94,17 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin: 0rem 2rem;
+    flex-direction: column;
+    gap: 3rem;
+    .destinations {
+      flex-direction: column;
+      .destination {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
 `;

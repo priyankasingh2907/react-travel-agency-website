@@ -109,4 +109,28 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .background {
+      img {
+        height: 50vh;
+      }
+    }
+    .content {
+      .info {
+        margin-left: 2rem;
+        h1 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+      }
+      .planner {
+        position: initial;
+        margin: 2rem;
+        form {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+    }
+  }
 `;

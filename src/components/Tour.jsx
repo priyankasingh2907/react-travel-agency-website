@@ -146,4 +146,35 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin: 0 2rem;
+    .ellipse {
+      display: none;
+    }
+    h2 {
+      transform: translateY(0px);
+      font-size: 2rem;
+    }
+    .tours {
+      flex-direction: column;
+      gap: 5rem;
+      .tour {
+        &:nth-of-type(2) {
+          transform: translateY(0);
+        }
+        button {
+          display: none !important;
+        }
+        .image {
+          img {
+            max-inline-size: 100%;
+            block-size: auto;
+          }
+          .vectors {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 `;
