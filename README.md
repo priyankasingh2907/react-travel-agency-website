@@ -1,8 +1,77 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# A nft-marketplace 
 
-Currently, two official plugins are available:
+NFT marketplaces are specialized platforms that facilitate the buying, selling, and creation of Non-Fungible Tokens (NFTs), which are unique digital assets representing ownership of distinct and scarce items, both tangible and intangible.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone  https://github.com/priyankasingh2907/react-travel-agency-website
+
+
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Installation
+
+Install npm packages
+
+```bash
+  npm install npm i styled-components react-icons
+
+
+```
+    
+## 🚀 About Me
+I'm a full stack mern developer from India...
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyanka-singh-643868315/)
+
+
+
+## 🛠 Skills
+Javascript, HTML, CSS , php , ajax , json , laravel , java , c, c++ , dsa, React , Database , Express , Nodejs , git , Github...
+
+
+
+## Authors
+
+- [@priyankasingh2907](https://www.github.com/octokatherine)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at priyanka.singh.2907.2k@gmail.com
+
+
