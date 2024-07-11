@@ -106,7 +106,7 @@ const Section = styled.section`
         align-items: center;
         gap: 1rem;
         padding: 1rem;
-        box-shadow: rgba(100, 100, 111, 0.2);
+        box-shadow: rgba(100, 100, 111, 0.2) 5px 7px 29px 5px;
         button {
           padding: 0%.5rem 0.7rem;
           background-color: var(--primary-color);
@@ -119,6 +119,8 @@ const Section = styled.section`
           display: flex;
           flex-direction: column;
           gap: 0.5rem;
+          box-shadow: rgba(100, 100, 111, 0.2) 5px 7px 29px 5px;
+
           .price-details {
             display: flex;
             gap: 1rem;

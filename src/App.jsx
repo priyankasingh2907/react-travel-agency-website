@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Offer from "./components/Offer";
 import Services from "./components/Services";
+import Testimonial from "./components/Testimonial";
 import Tour from "./components/Tour";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Destination />
       <Offer/>
       <Tour/>
+      <Testimonial/>
     </div>
   );
 }
