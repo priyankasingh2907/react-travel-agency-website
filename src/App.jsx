@@ -1,6 +1,7 @@
 import Destination from "./components/Destination";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Offer from "./components/Offer";
 import Services from "./components/Services";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Home />
       <Services />
       <Destination />
+      <Offer/>
     </div>
   );
 }
