@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Offer from "./components/Offer";
 import Services from "./components/Services";
+import Tour from "./components/Tour";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Services />
       <Destination />
       <Offer/>
+      <Tour/>
     </div>
   );
 }
