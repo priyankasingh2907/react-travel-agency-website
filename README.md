@@ -1,7 +1,7 @@
 
-# A nft-marketplace 
+# A Travel-agency website 
 
-NFT marketplaces are specialized platforms that facilitate the buying, selling, and creation of Non-Fungible Tokens (NFTs), which are unique digital assets representing ownership of distinct and scarce items, both tangible and intangible.
+Website design for Tourat - tours and travelers. Travel agency specializing in vacations, honeymoons, destination weddings and cruises..
 
 
 ## Run Locally
